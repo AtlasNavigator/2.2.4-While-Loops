@@ -35,8 +35,8 @@ const readLine = require('readline-sync');
 //   w--;
 // }
 
-let userResponse = readLine.question('Enter y or n: ')
-while (userResponse != "y" && userResponse !='n'){
-  console.log('invalid');
-  userResponse = readLine.question('Enter y or n: ');
-} //Force user into compliance, accepts inputs defined only
+// let userResponse = readLine.question('Enter y or n: ')
+// while (userResponse != "y" && userResponse !='n'){
+//   console.log('invalid'); // let person know you heard response
+//   userResponse = readLine.question('Enter y or n: ');
+// } //Force user into compliance, accepts inputs defined only
