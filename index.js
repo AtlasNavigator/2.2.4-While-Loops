@@ -40,3 +40,13 @@ const readLine = require('readline-sync');
 //   console.log('invalid'); // let person know you heard response
 //   userResponse = readLine.question('Enter y or n: ');
 // } //Force user into compliance, accepts inputs defined only
+
+let start = 0;
+while (start < 20){
+  if (start < 10){
+    console.log(start);
+  }else if (start > 15) {
+    console.log(start);
+  }
+  start++; //Go from 0-9 then 16-19, count some values and skip others.
+} //Add an 'if' statement into a while loop.
